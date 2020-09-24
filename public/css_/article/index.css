@@ -1,0 +1,123 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	書式設定
+------------------------------------------------------------*/
+/* テキストの位置 */
+.taLeft { text-align: left !important; }
+.taCenter { text-align: center !important; }
+.taRight { text-align: right !important; }
+
+/* フォントの太さ */
+.fwNormal { font-weight: normal !important; }
+.fwBold { font-weight: bold !important; }
+
+/*------------------------------------------------------------
+	clearfix
+------------------------------------------------------------*/
+* html .clearfix {
+		zoom: 1;
+	}
+
+	*+html .clearfix {
+		zoom: 1;
+	}
+
+.clearfix:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}
+
+/*------------------------------------------------------------
+	リンク・インプットをタップ時のクラス
+------------------------------------------------------------*/
+a.tapCtrl, input.tapCtrl,
+.tapCtrl a, .tapCtrl input {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+
+/*------------------------------------------------------------
+	sidebar
+------------------------------------------------------------*/
+
+/*.sidebar　.fundBox {*/
+    /*padding: 10px;*/
+    /*border-bottom: 1px solid #CDCFD1;*/
+/*}*/
+.fundBox {
+    padding: 10px 5px 10px;
+    border-bottom: 1px solid #CDCFD1;
+}
+
+.fundBox .ttl {
+    margin-bottom: 7px;
+    color: #313131;
+    font-size: 1.9rem;
+    font-weight: bold;
+    line-height: 1;
+    padding-left: 80px;
+}
+.fundBox a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+.fundBox .ttl:hover {
+    opacity: 0.7;
+}
+.photoBox {
+    float: left;
+}
+.photoBox  img{
+    max-width: 70px;
+    height: 70px;
+}
+.photoBox :hover{
+    opacity: 0.7;
+}
+
+/*------------------------------------------------------------
+	comImgList
+------------------------------------------------------------*/
+.comImgList {
+    width: 58%;
+    float: left;
+}
+
+/*------------------------------------------------------------
+	comTopBox
+------------------------------------------------------------*/
+.comTopBox {
+    margin-bottom: 18px;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #9FA8B7;
+}
+
+.comTopBox  .photo {
+    margin-top: -2px;
+    width: 84px;
+    float: left;
+}
+
+.comTopBox  .txtArea {
+    padding-left: 92px;
+}
+
+.comTopBox  h2 {
+    font-size: 1.9rem;
+    line-height: 1.15;
+}
+
+.comTopBox  p {
+    color: #818181;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.comTopBox  .ttl {
+    margin-bottom: 2px;
+    font-size: 1.5rem;
+}

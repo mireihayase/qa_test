@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+/**
+ *
+ * CSSリセット、再定義
+ *
+**/
+
+
+/**
+ * CSSリセット
+ * 参照元：http: //meyerweb.com/eric/tools/css/reset/
+**/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote: before, blockquote: after,
+q: before, q: after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/**
+ * 再定義
+**/
+
+body {
+	color: #232427;
+	font-family: "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif !important;
+	font-size: 75%;
+	line-height: 1.6em;
+	letter-spacing: 0px;
+	text-align: center;
+  background: #d8dfe8;
+}
+
+input[text],input[submit],input[button],select,textarea {
+	color: #232427;
+	font-family: "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif !important;
+	-webkit-appearance: none;
+	border-radius: 0;
+}
+
+table {
+	color: #232427;
+	font-family: "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif !important;
+	font-size: 100%;
+	line-height: 1.6em;
+	letter-spacing: 0px;
+	empty-cells:  show;
+}
+
+table td, table td {
+	empty-cells: show;
+}
+
+a {
+	color: #232427;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #232427;
+	text-decoration: underline;
+}
+
+a:hover img {
+  opacity: 0.7;
+}
+
+img {
+	border: none;
+}
+
+em { font-style: normal; }

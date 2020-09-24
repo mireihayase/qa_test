@@ -1,0 +1,349 @@
+@charset "UTF-8";
+
+/**
+ *
+ * 汎用スタイルシート
+ *
+**/
+
+
+/**
+ * SP表示
+**/
+.sp_disp { display: none !important; }
+.tb_disp { display: none !important; }
+
+
+/**
+ * 透過
+**/
+.hide { opacity: 0; }
+
+
+/**
+ * スクロールアニメーション
+**/
+.anim_right {
+	margin-left: 250px;
+	opacity: 0;
+}
+
+.anim_left {
+	margin-left: -250px;
+	opacity: 0;
+}
+
+
+/**
+ * 背景色
+**/
+.bk-yellow {
+  background: #fffeb8;
+}
+
+
+/**
+ * テキストライン
+**/
+.line-blue {
+  background: url("../images/text_line_01.png") repeat-x 0 bottom;
+  background-size: 5px auto;
+}
+
+
+/**
+ * ライン
+**/
+
+hr.line {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1000px;
+	height: 0;
+	line-height: 0;
+	border: none;
+	border-bottom: 2px solid #b6b6b6;
+	clear: both;
+}
+
+
+/**
+ * フォントファミリー
+**/
+
+.mincho { 	font-family: "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif !important; }
+
+
+/**
+ * フォントカラー
+**/
+
+.red { color: #ff0000; }
+.green { color: #00cc00; }
+.blue { color: #0000ff; }
+
+/**
+ * リンクテキスト
+**/
+
+.link_text a { text-decoration: underline; }
+.link_text a:hover { text-decoration: none; }
+
+/**
+ * フォントウェイト
+**/
+
+.bold { font-weight: bold; }
+
+/**
+ * フォントサイズ
+**/
+
+.font10 { font-size: 10px !important; }
+.font11 { font-size: 11px !important; }
+.font12 { font-size: 12px !important; }
+.font13 {
+	line-height: 150% !important;
+	font-size: 13px !important;
+}
+.font14 {
+	line-height: 150% !important;
+	font-size: 14px !important;
+}
+.font15 {
+	line-height: 150% !important;
+	font-size: 15px !important;
+}
+.font16 {
+	line-height: 150% !important;
+	font-size: 16px !important;
+}
+.font17 {
+	line-height: 150% !important;
+	font-size: 17px !important;
+}
+.font20 {
+	line-height: 150% !important;
+	font-size: 20px !important;
+}
+.font24 {
+	line-height: 150% !important;
+	font-size: 24px !important;
+}
+
+
+/**
+ * テキストアライン
+**/
+
+.txt_right { text-align: right !important; }
+.txt_left { text-align: left !important; }
+.txt_center { text-align: center !important; }
+.txt_center img {
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+/**
+ * テキストインデント
+**/
+
+.txt_indent { text-indent: 1em; }
+
+
+/**
+ * マージン
+**/
+
+/* マージントップ */
+.mt05 { margin-top: 5px !important; }
+.mt10 { margin-top: 10px !important; }
+.mt15 { margin-top: 15px !important; }
+.mt20 { margin-top: 20px !important; }
+.mt25 { margin-top: 25px !important; }
+.mt30 { margin-top: 30px !important; }
+.mt35 { margin-top: 35px !important; }
+.mt40 { margin-top: 40px !important; }
+.mt45 { margin-top: 45px !important; }
+.mt50 { margin-top: 50px !important; }
+.mt55 { margin-top: 55px !important; }
+.mt60 { margin-top: 60px !important; }
+
+/* マージンボトム */
+.mb00 { margin-bottom: 0px !important; }
+.mb05 { margin-bottom: 5px !important; }
+.mb10 { margin-bottom: 10px !important; }
+.mb15 { margin-bottom: 15px !important; }
+.mb20 { margin-bottom: 20px !important; }
+.mb25 { margin-bottom: 25px !important; }
+.mb30 { margin-bottom: 30px !important; }
+.mb35 { margin-bottom: 35px !important; }
+.mb40 { margin-bottom: 40px !important; }
+.mb45 { margin-bottom: 45px !important; }
+.mb50 { margin-bottom: 50px !important; }
+.mb55 { margin-bottom: 55px !important; }
+.mb60 { margin-bottom: 60px !important; }
+.mb65 { margin-bottom: 65px !important; }
+.mb70 { margin-bottom: 70px !important; }
+.mb75 { margin-bottom: 75px !important; }
+.mb80 { margin-bottom: 80px !important; }
+.mb90 { margin-bottom: 90px !important; }
+.mb95 { margin-bottom: 95px !important; }
+
+/* マージンレフト */
+.ml05 { margin-left: 5px !important; }
+.ml10 { margin-left: 10px !important; }
+.ml15 { margin-left: 15px !important; }
+.ml20 { margin-left: 20px !important; }
+.ml25 { margin-left: 25px !important; }
+.ml30 { margin-left: 30px !important; }
+.ml35 { margin-left: 35px !important; }
+.ml40 { margin-left: 40px !important; }
+.ml45 { margin-left: 45px !important; }
+.ml50 { margin-left: 50px !important; }
+.ml55 { margin-left: 55px !important; }
+.ml60 { margin-left: 60px !important; }
+
+/* マージンライト */
+.mr05 { margin-right: 5px !important; }
+.mr10 { margin-right: 10px !important; }
+.mr15 { margin-right: 15px !important; }
+.mr20 { margin-right: 20px !important; }
+.mr25 { margin-right: 25px !important; }
+.mr30 { margin-right: 30px !important; }
+.mr35 { margin-right: 35px !important; }
+.mr40 { margin-right: 40px !important; }
+.mr45 { margin-right: 45px !important; }
+.mr50 { margin-right: 50px !important; }
+.mr55 { margin-right: 55px !important; }
+.mr60 { margin-right: 60px !important; }
+
+
+/**
+ * フロート
+**/
+
+.fl { float: left; }
+.fr { float: right; }
+
+
+/**
+ * ワイド
+**/
+
+.w50 { width: 50px !important; }
+.w100 { width: 100px !important; }
+.w150 { width: 150px !important; }
+.w200 { width: 200px !important; }
+.w250 { width: 250px !important; }
+.w300 { width: 300px !important; }
+.w350 { width: 350px !important; }
+
+.w80p { width: 80% !important; }
+
+/**
+ * テキスト入力フィールド
+**/
+
+input.txt_w100 {
+	padding: 0 10px;
+	width: 100px;
+	height: 28px;
+	line-height: 28px;
+	font-size: 14px;
+	background: #f8f8f8;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #cccccc;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+input.txt_w300 {
+	padding: 0 10px;
+	width: 300px;
+	height: 28px;
+	line-height: 28px;
+	font-size: 14px;
+	background: #f8f8f8;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #cccccc;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+input.txt_w400 {
+	padding: 0 10px;
+	width: 400px;
+	height: 28px;
+	line-height: 28px;
+	font-size: 14px;
+	background: #f8f8f8;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #cccccc;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+input.txt_w480 {
+	padding: 0 10px;
+	width: 480px;
+	height: 28px;
+	line-height: 28px;
+	font-size: 14px;
+	background: #f8f8f8;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #cccccc;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+}
+
+textarea.textarea_w600 {
+	padding: 10px;
+	width: 600px;
+	height: 140px;
+	line-height: 1.8em;
+	font-size: 14px;
+	background: #f8f8f8;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #cccccc;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/**
+ * クリア関連
+**/
+
+.clear {
+	clear: both;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix { min-height: 1px !important; }
+* html .clearfix { height: 1px !important; }
+
+

@@ -1,0 +1,185 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+*, ::after, ::before {
+    background-repeat: no-repeat;
+    box-sizing: inherit;
+}
+*, ::after, ::before {
+    background-repeat: no-repeat;
+    box-sizing: inherit;
+}
+html {
+    /*font-size: 10px;*/
+    -webkit-font-feature-settings: "palt" 1;
+    font-feature-settings: "palt" 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-y: auto;
+}
+
+body {
+    position: relative;
+    line-height: 1.6;
+    color: #000;
+    font-size: 1.4rem;
+    font-family: YuGothic,"ヒラギノ角ゴ ProN W3","Lucida Grande","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,Verdana,"ＭＳ Ｐゴシック",sans-serif;
+    font-weight: 400;
+}
+
+
+ol, ul {
+    list-style: none;
+}
+
+.-area--l, .-area--r {
+    -webkit-transition: width .15s ease-out,height .15s ease-out;
+}
+
+.-area--r {
+    position: relative;
+    /*z-index: 10;*/
+    margin-left: 180px;
+}
+
+a {
+    color: #000;
+    outline: 0;
+    text-decoration: none;
+    -webkit-touch-callout: none;
+}
+
+.-area--r:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    content: '';
+    width: 1px;
+    height: 100%;
+    background: #f0f0ee;
+    z-index: -1;
+}
+
+.breadcrumbs {
+    line-height: 1;
+    background: #f0f0ee;
+    padding: 10px 60px;
+    overflow:hidden;
+}
+
+
+.leadImg, .liquidBlock, .pickup {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 60px;
+    -webkit-box-sizing: content-box;
+}
+.breadcrumbs__item {
+    position: relative;
+    display: block;
+    float: left;
+    padding-right: 1.6em;
+    margin-right: 1.1em;
+    font-size: 1rem;
+}
+.breadcrumbs__item:after {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    content: '>';
+    margin-top: -10px;
+}
+.breadcrumbs__item:last-child:after {
+    content : none ;
+}
+.text-center {
+    text-align: center;
+}
+
+.footer{
+    background-color: #07152c;
+    font-size: 15px;
+    padding: 20px 0;
+    color: #74869b;
+}
+.footer a{
+    color: #74869b;
+}
+.xs-mr-10 {
+    margin-right: 10px !important;
+}
+.btn {
+    color: white;
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 15px;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: 1px;
+    border: 2px solid;
+    border-color: #2475b9;
+    background-image: linear-gradient(-224deg, #17499b 0%, #3c7fb4 100%);
+    -webkit-box-sizing: border-box;
+    -webkit-border-radius: 50px;
+    -webkit-transition: all .2s ease-out;
+}
+.sp-logo {
+    display: none;
+    text-align: center;
+    height: 0px;
+}
+.category_btn {
+    display: inline-block;
+    padding: 6px 12px 5px;
+    color: #fff;
+    background-image: linear-gradient(-224deg, #17499b 0%, #3c7fb4 100%);;
+    line-height: 1;
+    -webkit-border-radius: 20px;
+    font-size: 14px;
+    /*margin: 5px;*/
+}
+.category_btn a{
+    color: white;
+}
+.tag_btn {
+    padding: 6px 12px 5px;
+    /*padding: 2px 2px 4px;*/
+    text-align: center;
+    border: 1px solid #2475b9;
+    line-height: 1;
+    font-size: 14px;
+    color: #2475b9;
+    -webkit-border-radius: 40px;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+    .-area--l {
+        display: none;
+    }
+    .sp-logo {
+        display: block!important;
+        color: white;
+        height: 50px;
+    }
+    .sp-logo a {
+        color: white;
+    }
+    .hidden-xs {
+        display: none!important;
+    }
+    .-area--r {
+        margin-left:0;
+    }
+    .breadcrumbs {
+        padding: 10px 20px;
+    }
+    .tag_btn {
+        font-size: 12px;
+    }
+}

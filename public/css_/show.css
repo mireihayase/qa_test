@@ -1,0 +1,139 @@
+.pageHeader {
+    height: auto;
+    position: relative;
+    padding: 20px 40px;
+    margin-bottom: .71429em;
+    border-bottom: 1px solid #f0f0ee;
+}
+
+.pageHeader__meta{
+    margin-bottom: 5px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+.pageHeader.-single .tag, .pageHeader.-single .tag-round {
+    margin-right: .66667em;
+}
+
+.tag {
+    display: inline-block;
+    padding: 6px 12px 5px;
+    color: #fff;
+    background-image: linear-gradient(-224deg, #17499b 0%, #3c7fb4 100%);;
+    line-height: 1;
+    -webkit-border-radius: 20px;
+}
+.pageHeader__title {
+    font-size: 40px;
+    font-weight: 400;
+    /*line-height: 1;*/
+    letter-spacing: .05em;
+}
+.section__inner {
+    margin: 0 auto;
+    padding: 10px 80px;
+}
+.section__inner h2{
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 25px;
+    margin: 30px 0px 10px;
+    padding: 8px 0px 8px 5px;
+    border-left: 4px solid #3c7fb4;
+    border-bottom: 1px solid #3c7fb4;
+}
+.section__inner h3 {
+    font-size: 1.2em;
+    line-height: 25px;
+    font-weight: 700;
+    color: rgba(0,0,0,.8);
+    margin: 25px 0 4px;
+    padding: 0px 0px;
+    padding-left: 15px;
+    border-left: 2px #3c7fb4 solid;
+}
+
+.section__inner a{
+     color: #2475b9;
+}
+.section__inner img {
+    max-width: 80%;
+    height: auto;
+    vertical-align: top;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,.05);
+}
+.section__freeArea p {
+    margin-bottom: 1.5em;
+}
+.section__mainText {
+    font-size: 1rem;
+    line-height: 1.9;
+}
+.img_center{
+    text-align: center;
+}
+.single_pager {
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 10px 10px;
+    zoom: 1;
+    font-size: 15px;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+.single_pager li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.single_pager a{
+    color: black;
+}
+.pager_back {
+    float: left;
+}
+.pager_next {
+    float: right;
+}
+.section__backBtn {
+    padding: 40px 0;
+    text-align: center;
+    color: white;
+}
+
+.section__backBtn a{
+    color: white;
+}
+
+.table_of_contents {
+    max-width: 400px;
+    margin: 0 auto 35px;
+    padding: 8px;
+    border: 2px solid #2475b9;
+    font-size: .95rem;
+}
+.table_of_contents li a{
+    color: black;
+}
+.headline{
+    border-bottom: 1px solid #2475b9;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .breadcrumbs__item {
+        font-size: 12px;
+    }
+    .pageHeader {
+        padding: 20px 20px;
+    }
+    .pageHeader__title {
+        font-size: 20px;
+    }
+    .section__inner {
+        padding: 20px 20px;
+    }
+    .section__mainText {
+        font-size: 15px;
+    }
+
+}

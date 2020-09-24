@@ -1,0 +1,142 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+#main .headLine01 {
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.coin_img {
+    max-width: 30%;
+}
+.photoBox img {
+    max-height: 100%;
+}
+
+
+/*------------------------------------------------------------
+	sidebar
+------------------------------------------------------------*/
+
+.sideBox {
+    padding: 10px;
+    border-bottom: 1px solid #CDCFD1;
+}
+
+.sideBox .ttl {
+    /*margin-bottom: 7px;*/
+    color: #313131;
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 1;
+}
+.sideBox a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+.photoBox {
+    float: left;
+}
+.photoBox  img{
+    height: 70px;
+}
+
+/*------------------------------------------------------------
+	comImgList
+------------------------------------------------------------*/
+.comImgList {
+    width: 58%;
+    float: left;
+}
+
+
+/*------------------------------------------------------------
+	comTxtList
+------------------------------------------------------------*/
+.comTxtList {
+    /*float: right;*/
+    margin-bottom: 11px;
+    /*margin-top: -4px;*/
+}
+
+.comTxtList li {
+    margin: 4px 0 0;
+    padding: 2px 3px;
+    width: auto;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1.1rem;
+    color: #3473AE;
+    line-height: 1;
+    border: 1px solid #3473AE;
+    border-radius: 15px;
+}
+
+.comTxtList .bg {
+    color: #FFF;
+    background-image: linear-gradient(-224deg, #17499b 0%, #3c7fb4 100%);
+    /*background-color: #3473AE;*/
+}
+
+.right {
+    float: right;!important;
+}
+
+
+
+.contentsBox {
+    margin-bottom: 15px;
+}
+
+.contentsBox:last-child {
+    margin-bottom: 0;
+}
+
+.contentsBox a {
+    /*padding-left: 93px;*/
+    /*display: block;*/
+    position: relative;
+}
+.contentsBox a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.contentsBox .pho {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 3px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.contentsBox .txtBox {
+    min-height: 130px;
+    padding: 2px 0 15px 120px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #CDCFD1;
+}
+
+.contentsBox p {
+    word-wrap: break-word;
+    font-size: 1.3rem;
+    line-height: 1.3;
+}
+
+.contentsBox .ttl {
+    margin-bottom: 7px;
+    color: #313131;
+    font-size: 1.9rem;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.contentsBox .time {
+    margin: -2px 0 4px;
+    font-size: 1.2rem;
+    line-height: 1.2;
+}

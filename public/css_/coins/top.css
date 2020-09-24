@@ -1,0 +1,74 @@
+/*.clearfix {*/
+    /*!*min-height: 1px;*!*/
+    /*content: "";*/
+    /*display: block;*/
+    /*clear: both;*/
+/*}*/
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.main_contents {
+    margin: 0 60px;
+}
+.box_title {
+    margin-left: 20px;
+}
+.box {
+    margin: 20px;
+    /*border: 1px solid #888080;*/
+}
+
+.item {
+    border: 1px solid #EEE;
+    width: 30%;
+    float: left;
+    margin: 10px 12px 25px;
+    position: relative;
+}
+.siteDetails {
+}
+.item .coin_contents {
+    padding: 15px;
+    position: relative;
+    /*width: 308px;*/
+    height: 120px;
+    z-index: 10;
+    display: block;
+}
+
+.coin_logo {
+    height: 64px;
+    width: 64px;
+    float: left;
+}
+.coin_name {
+    float: left;
+    margin: 15px;
+}
+.coin_description {
+    font-size: 15px;
+    float: left;
+    width: 100%;
+    height: 72px;
+}
+
+.harf-box {
+    width: 45%;
+    margin: 20px;
+    float: left;
+}
+.harf-item {
+    border: 1px solid #EEE;
+    padding: 10px;
+    width: 40%;
+    float: left;
+    margin: 10px 10px 25px;
+    position: relative;
+}
+
+.category_position {
+    float: left;
+    margin-left: 10px;
+}
